@@ -1,0 +1,23 @@
+{
+  "name": "flow-matching-video",
+  "version": "1.0.0",
+  "description": "Remotion视频解释Flow Matching算法",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render FlowMatchingVideo out/flow_matching_moons.mp4",
+    "render": "remotion render FlowMatchingVideo out/flow_matching_moons.mp4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
